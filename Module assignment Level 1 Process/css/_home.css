@@ -1,0 +1,20 @@
+.card {
+    margin-bottom: 2em;
+    height: 264px;
+    border-radius: 15px;
+}
+
+.grey {
+    background-color: var(--nav-colour);
+    border-color: var(--gray-dark);
+}
+
+.white {
+    background-color: var(--white);
+    border-color: var(--secondary);
+}
+
+.pink {
+    background-color: var(--secondary);
+    border-color: var(--white);
+}

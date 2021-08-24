@@ -1,0 +1,34 @@
+html,
+body {
+    height: 100%;
+}
+
+
+body {
+    font-family: "Open sans", sans-serif;
+    background-color: var(--background-colour);
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    flex-shrink: 0;
+    background-color: var(--nav-colour);
+    color: var(--background-colour);
+    justify-content: space-between;
+    margin-top: 2rem;
+    font-size: 12px;
+    padding: 0.5em;
+    }
+
+footer a {
+    color: var(--background-colour);
+    text-decoration: none;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+}
+
+/*flex-direction: column;*/
