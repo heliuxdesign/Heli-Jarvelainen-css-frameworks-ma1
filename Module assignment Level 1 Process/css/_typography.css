@@ -9,3 +9,7 @@ h1 {
     color: var(--primary-colour);
     text-align: center;
 }
+
+.nav-item {
+    font-family: "Archivo Narrow", sans-serif;
+}
