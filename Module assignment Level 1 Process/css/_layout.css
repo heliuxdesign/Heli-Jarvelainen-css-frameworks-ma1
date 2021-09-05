@@ -15,7 +15,7 @@ footer {
     display: flex;
     flex-shrink: 0;
     background-color: var(--nav-colour);
-    color: var(--background-colour);
+    color: var(--light);
     justify-content: space-between;
     margin-top: 2rem;
     font-size: 12px;
@@ -23,12 +23,20 @@ footer {
     }
 
 footer a {
-    color: var(--background-colour);
+    color: var(--light);
     text-decoration: none;
 }
 
 .wrapper {
     flex: 1 0 auto;
+}
+
+@media (max-width: 767px){
+    footer {
+        background-color: var(--white);
+        flex-direction: column;
+        text-align: center;
+    }    
 }
 
 
