@@ -11,7 +11,7 @@
 
 .grey {
     background-color: var(--nav-colour);
-    border-color: var(--gray-dark);
+    box-shadow: var(--gray-dark);
 }
 
 .white {
