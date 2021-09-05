@@ -1,7 +1,12 @@
 .card {
     margin-bottom: 2em;
-    height: 264px;
+    height: 263px;
     border-radius: 15px;
+}
+
+.container {
+    max-width: 90%;
+    padding: 0 3em 0 3em;
 }
 
 .grey {

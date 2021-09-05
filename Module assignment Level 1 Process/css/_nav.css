@@ -15,12 +15,20 @@
     font-size: 18px;
 }
 
+.container-fluid {
+    max-width: 90%;
+}
+
 .active {
     color: var(--secondary) !important;
 }
 
 .navbar-collapse {
     z-index: 1;
+}
+
+.nav-item {
+    font-family: "Archivo Narrow", sans-serif;
 }
 
 
